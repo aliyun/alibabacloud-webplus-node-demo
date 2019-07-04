@@ -19,7 +19,7 @@ env:
 
 next:
   step:
-    show: true
+    show: false
     package:
       url: https://webplus-prod-${WP_APP_REGION_ID}.oss-${WP_APP_REGION_ID}.aliyuncs.com/quickstart/node/next-step/webplus-demo-node-0.1.0-SNAPSHOT.zip
 
