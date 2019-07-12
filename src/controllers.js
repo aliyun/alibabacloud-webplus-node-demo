@@ -76,7 +76,9 @@ module.exports = (router, config) => {
         WP_ENV_ID: process.env.WP_ENV_ID
       }),
       nextStep: config.next.step.show,
-      nextStepPackageUrl: config.next.step.package.url,
+      nextStepPackageUrl: template(config.next.step.package.url, {
+        WP_APP_REGION_ID: process.env.WP_APP_REGION_ID
+      }),
       consoleUrl: config.webplus.console.url,
       envs: {
         appRegionId: process.env.WP_APP_REGION_ID,
