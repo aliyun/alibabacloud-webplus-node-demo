@@ -21,11 +21,11 @@ next:
   step:
     show: false
     package:
-      url: https://webplus-prod-${WP_APP_REGION_ID}.oss-${WP_APP_REGION_ID}.aliyuncs.com/quickstart/node/next-step/webplus-demo-node-0.1.0-SNAPSHOT.zip
+      url: https://webplus-prod-${WP_APP_REGION_ID}.oss-${WP_APP_REGION_ID}.aliyuncs.com/quickstart/node/next-step/webplus-node-demo-0.1.0.zip
 
 news:
   repository:
-    url: https://webplus-prod-${WP_APP_REGION_ID}.oss-${WP_APP_REGION_ID}.aliyuncs.com/whats-new/
+    url: https://webplus-prod-${WP_APP_REGION_ID}.oss-${WP_APP_REGION_ID}-internal.aliyuncs.com/whats-new/
 
 webplus:
   console:
