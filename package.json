@@ -34,7 +34,7 @@
     "readline-promise": "^1.0.4",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "showdown": "^1.9.0",
+    "showdown": "^1.9.1",
     "string-placeholder": "^1.0.2"
   }
 }
